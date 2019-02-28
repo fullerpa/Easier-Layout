@@ -1,0 +1,12 @@
+#section {
+    float: left;
+    margin: 5px
+}
+
+#aside {
+    float: right;
+    margin: 5px;
+}
+#footer {
+    float: left;
+}

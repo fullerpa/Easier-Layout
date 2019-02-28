@@ -4,15 +4,16 @@
 }
 
 body {
-    background-color: #efeee7;
+    background-color: #646464;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333333;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333333;
+header, nav, section, article, h1, p, aside, footer {
+    background-color: whitesmoke;
     text-align: center;
+    margin: 5px;
     padding: 3px;
 }

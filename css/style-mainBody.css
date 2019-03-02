@@ -12,8 +12,8 @@ body {
 }
 
 header, nav, section, article, h1, p, aside, footer {
-    background-color: whitesmoke;
     text-align: center;
+    background-color: whitesmoke;
     margin: 5px;
     padding: 3px;
 }

@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 967px;
     background-color: #646464;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333333;
@@ -11,10 +12,45 @@ body {
     padding: 0;
 }
 
-header, nav, section, article, h1, p, aside, footer, heading {
+header,
+nav,
+section,
+article,
+h1,
+p,
+aside,
+footer,
+heading {
     display: block;
     text-align: center;
     background-color: whitesmoke;
     margin: 7px;
     padding: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* The body's bg color will be #333 */
+    body {
+        background-color: #aaaaaa;
+    }
+
+    /* The wrapper's width will be 600px */
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    h1,
+    p,
+    aside,
+    footer,
+    heading {
+        /* Box-model */
+        width: 100%;
+    }
 }
